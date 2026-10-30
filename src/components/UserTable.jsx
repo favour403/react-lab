@@ -1,4 +1,4 @@
-  import { tr } from "zod/v4/locales";
+
 import { useUser } from "../context/userContext";
   
 
@@ -28,6 +28,7 @@ import { useUser } from "../context/userContext";
 
     return (
      <div>
+         {/* BUILDING THE USER DASHBOARD */}
          <h1>User Table</h1>
           <table>
         <thead>
